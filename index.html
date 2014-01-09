@@ -5,7 +5,19 @@
   <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
   <title>Basemap Toggle</title>
   <link rel="stylesheet" type="text/css" href="http://js.arcgis.com/3.8/js/esri/css/esri.css">
-  <link rel="stylesheet" type="text/css" href="css/map.css">
+  <style >
+    html, body, #map {
+      padding:0;
+      margin:0;
+      height:100%;
+    }
+    #BasemapToggle {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 50;
+    }
+  </style>
   <script src="//js.arcgis.com/3.8/"></script>
   <script src="js/map.js"></script>
 </head>
