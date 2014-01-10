@@ -4,7 +4,7 @@ html, body, #map {
       height:100%;
     }
     #BasemapToggle {
-      position: relative;
+      position: absolute;
       top: 20px;
       right: 20px;
       z-index: 50;
